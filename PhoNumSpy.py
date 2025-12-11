@@ -14,7 +14,7 @@ version = "Version 1.0"
 print(version)
 print("\n")
 time.sleep(1)
-maininput = input("Input the target phone number using this format: +(prefix)(phonenumber) ES: +447455869664\n-->")
+maininput = +601172522771input("Input the target phone number using this format: +(prefix)(phonenumber) ES: +447455869664\n-->")
 lookuptarget = maininput.strip("+")
 fileoutput = open(f"{maininput}_results.txt", "w")
 fileoutput.write("\n")
@@ -136,3 +136,4 @@ fileoutput.close()
 filepath = os.getcwd()
 filename = f"{maininput}_results.txt"
 print(f"{maininput} Logs saved in {filepath} as '{filename}'")
+
